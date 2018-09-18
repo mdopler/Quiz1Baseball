@@ -21,6 +21,7 @@ public class baseballStatsCalculator {
 	
 	private double walks;
 	
+	
 	public static void main(String[] args) {
 		
 		Scanner statsIn = new Scanner(System.in);
@@ -59,7 +60,7 @@ public class baseballStatsCalculator {
 	
 	public double totalBases() {
 		
-		return (this.doubles * 2 + this.triples * 3 + this.homeRuns * 4+(this.hits-(this.doubles + this.triples + this.homeRuns)));
+		return (this.doubles * 2 + this.triples * 3 + this.homeRuns * 4 + (this.hits-(this.doubles + this.triples + this.homeRuns)));
 	
 	}
 	
