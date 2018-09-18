@@ -4,7 +4,7 @@ package baseballstats;
 import java.util.Scanner;
 
 
-public class baseballstatscalculator {
+public class baseballstatics {
 	
 
 	private double atbats;
@@ -23,7 +23,7 @@ public class baseballstatscalculator {
 	
 	
 	
-	public baseballstatscalculator() {
+	public baseballstatics() {
 	
 	}
 		
@@ -63,7 +63,7 @@ public class baseballstatscalculator {
 		Scanner inputs = new Scanner(System.in);
 		
 		
-		baseballstatscalculator outputs = new baseballstatscalculator();
+		baseballstatics outputs = new baseballstatics();
 		
 		
 		System.out.println("Enter statistics for: At Bats, Hits, Doubles, Triples, Home Runs, Runs, Walks.");
