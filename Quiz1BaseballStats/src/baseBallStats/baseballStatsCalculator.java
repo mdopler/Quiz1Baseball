@@ -22,26 +22,6 @@ public class baseballStatsCalculator {
 	private double walks;
 	
 	
-	public static void main(String[] args) {
-		
-		Scanner statsIn = new Scanner(System.in);
-		
-		baseballStatsCalculator statStore = new baseballStatsCalculator();
-		
-		System.out.println("Enter statistics in this order: At Bats, Hits, Doubles, Triples, Home Runs, Runs, Walks.");
-
-		statStore.atBats = statsIn.nextDouble();
-		statStore.hits = statsIn.nextDouble();
-		statStore.doubles = statsIn.nextDouble();
-		statStore.triples = statsIn.nextDouble();
-		statStore.homeRuns = statsIn.nextDouble();
-		statStore.runs = statsIn.nextDouble();
-		statStore.walks = statsIn.nextDouble();
-		statsIn.close();
-		
-		System.out.print("Batting average: " + statStore.battingAverage() + ", On base percentage: " + statStore.onBasePercentage() + ", Total bases: " + statStore.totalBases() + ", Slugging percentage: " + statStore.sluggingPercentage() + ", On base + slugging percentage: " + statStore.onBaseSluggingPercentage());
-	}
-	
 	
 	public baseballStatsCalculator() {
 	
@@ -76,7 +56,27 @@ public class baseballStatsCalculator {
 		return (this.totalBases() / this.atBats);
 		
 	}
+	
+	public static void main(String[] args) {
+		
+		Scanner statsIn = new Scanner(System.in);
+		
+		baseballStatsCalculator statStore = new baseballStatsCalculator();
+		
+		System.out.println("Enter statistics in this order: At Bats, Hits, Doubles, Triples, Home Runs, Runs, Walks.");
 
+		statStore.atBats = statsIn.nextDouble();
+		statStore.hits = statsIn.nextDouble();
+		statStore.doubles = statsIn.nextDouble();
+		statStore.triples = statsIn.nextDouble();
+		statStore.homeRuns = statsIn.nextDouble();
+		statStore.runs = statsIn.nextDouble();
+		statStore.walks = statsIn.nextDouble();
+		statsIn.close();
+		
+		System.out.print("Batting average: " + statStore.battingAverage() + ", On base percentage: " + statStore.onBasePercentage() + ", Total bases: " + statStore.totalBases() + ", Slugging percentage: " + statStore.sluggingPercentage() + ", On base + slugging percentage: " + statStore.onBaseSluggingPercentage());
+		
+	}
 
 }
 
