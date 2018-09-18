@@ -66,20 +66,32 @@ public class baseballstatics {
 		baseballstatics outputs = new baseballstatics();
 		
 		
-		System.out.println("Enter statistics for: At Bats, Hits, Doubles, Triples, Home Runs, Runs, Walks.");
+		System.out.println("Enter number of at bats:");
 		
 		
 		outputs.atbats = inputs.nextDouble();
 		
+		System.out.println("Enter bumber of hits:");
+		
 		outputs.hits = inputs.nextDouble();
+		
+		System.out.println("Enter number of doubles:");
 		
 		outputs.doubles = inputs.nextDouble();
 		
+		System.out.println("Enter number of triples:");
+		
 		outputs.triples = inputs.nextDouble();
+		
+		System.out.println("Enter number of home runs:");
 		
 		outputs.homeruns = inputs.nextDouble();
 		
+		System.out.println("Enter number of runs:");
+		
 		outputs.runs = inputs.nextDouble();
+		
+		System.out.println("Enter number of walks:");
 		
 		outputs.walks = inputs.nextDouble();
 		
