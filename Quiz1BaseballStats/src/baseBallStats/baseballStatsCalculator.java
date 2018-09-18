@@ -61,7 +61,7 @@ public class baseballStatsCalculator {
 	
 	public double totalBases() {
 		
-		return (this.doubles * 2 + this.triples * 3 + this.homeRuns * 4 + (this.hits-(this.doubles + this.triples + this.homeRuns)));
+		return (this.doubles * 2 + this.triples * 3 + this.homeRuns * 4 + (this.hits - (this.doubles + this.triples + this.homeRuns)));
 	
 	}
 	
