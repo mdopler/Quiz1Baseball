@@ -42,6 +42,7 @@ public class baseballStatsCalculator {
 		System.out.print("Batting average: " + statStore.battingAverage() + ", On base percentage: " + statStore.onBasePercentage() + ", Total bases: " + statStore.totalBases() + ", Slugging percentage: " + statStore.sluggingPercentage() + ", On base + slugging percentage: " + statStore.onBaseSluggingPercentage());
 	}
 	
+	
 	public baseballStatsCalculator() {
 	
 	}
