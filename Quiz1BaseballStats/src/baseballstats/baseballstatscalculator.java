@@ -70,13 +70,21 @@ public class baseballstatscalculator {
 		
 		
 		outputs.atbats = inputs.nextDouble();
+		
 		outputs.hits = inputs.nextDouble();
+		
 		outputs.doubles = inputs.nextDouble();
+		
 		outputs.triples = inputs.nextDouble();
+		
 		outputs.homeruns = inputs.nextDouble();
+		
 		outputs.runs = inputs.nextDouble();
+		
 		outputs.walks = inputs.nextDouble();
+		
 		inputs.close();
+		
 		
 		System.out.print("Batting Average: " + outputs.battingaverage() + ", On Base Percentage: " + outputs.onbasepercentage() + ", Total Bases: " + outputs.totalbases() + ", Slugging Percentage: " + outputs.sluggingpercentage() + ", On Base + Slugging Percentage: " + outputs.onbasesluggingpercentage());
 	}
